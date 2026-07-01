@@ -3,6 +3,9 @@
 // ============================================================
 import { useState, useEffect, useRef } from "react";
 import profileImg from "./Image/Photo.jpeg"
+import ecommerceImg from "./screenshots/ecommerce.png"
+import gitrecruiterImg from "./screenshots/gitrecruiter.png"
+import mealmasterImg from "./screenshots/mealmaster.png"
 // ─────────────────────────────────────────────────────────────
 // FONT AWESOME ICON SHIMS
 // Drop-in replacements for the lucide-react components used below,
@@ -210,7 +213,7 @@ const CERTIFICATIONS = [
 const PROJECTS = [
   {
     id: "ecommerce",
-    imageUrl: "../src/screenshots/ecommerce.png",
+    imageUrl: ecommerceImg,
     badge: "Featured · Full Stack",
     badgeColor: "#60a5fa",
     badgeBg: "rgba(37,99,235,0.12)",
@@ -236,7 +239,7 @@ const PROJECTS = [
   },
   {
     id: "mealmaster",
-    imageUrl: "../src/screenshots/mealmaster.png",
+    imageUrl: mealmasterImg,
     badge: "Full Stack · AI-Powered",
     badgeColor: "#34d399",
     badgeBg: "rgba(5,150,105,0.1)",
@@ -263,7 +266,7 @@ const PROJECTS = [
   },
   {
     id: "gitrecruiter",
-    imageUrl: "../src/screenshots/gitrecruiter.png",
+    imageUrl: gitrecruiterImg,
     badge: "Full Stack · Hackathon",
     badgeColor: "#f472b6",
     badgeBg: "rgba(236,72,153,0.1)",
